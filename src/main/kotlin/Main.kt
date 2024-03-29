@@ -1,6 +1,3 @@
-import java.io.File
-import java.net.URL
-import java.net.URLClassLoader
 import kotlin.io.path.Path
 import kotlin.io.path.absolutePathString
 import kotlin.io.path.exists
@@ -26,7 +23,7 @@ fun main(args: Array<String>) {
         println("This message should print, indeed!")
     }
 
-    println("Now move TestClass.class to $dir")
+    println("TODO: ŒNow move TestClass.class to $dir")
     readln()
 
     // Loading that should succeed
